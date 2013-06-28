@@ -1,5 +1,4 @@
-<?xml version="1.0" ?>
-<robot>
+<?xml version="1.0" ?><robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -39,12 +38,12 @@
 	<property name="offset_tray_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
-	<property name="offset_torso_x" value="0.0"/>
+	<property name="offset_torso_x" value="-1.53138e-05"/>
 	<property name="offset_torso_y" value="0.0"/>
-	<property name="offset_torso_z" value="0.0"/>
-	<property name="offset_torso_roll" value="0.0"/>
-	<property name="offset_torso_pitch" value="0.0"/>
-	<property name="offset_torso_yaw" value="0.0"/>
+	<property name="offset_torso_z" value="-4.00721e-05"/>
+	<property name="offset_torso_roll" value="-2.64420000002e-05"/>
+	<property name="offset_torso_pitch" value="-1.63655000001e-05"/>
+	<property name="offset_torso_yaw" value="-7.03429999982e-06"/>
 
 	<!-- head mount positions | relative to head_cover_link -->
 	<property name="offset_head_x" value="0.0"/>
@@ -55,12 +54,12 @@
 	<property name="offset_head_yaw" value="0.0"/>
 
 	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="0.0"/>
-	<property name="offset_arm_y" value="0.0"/>
-	<property name="offset_arm_z" value="0.0"/>
-	<property name="offset_arm_roll" value="0.0"/>
-	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="0.0"/>
+	<property name="offset_arm_x" value="-0.0091136784"/>
+	<property name="offset_arm_y" value="0.0200490709"/>
+	<property name="offset_arm_z" value="0.0051166437"/>
+	<property name="offset_arm_roll" value="-0.0117965899"/>
+	<property name="offset_arm_pitch" value="0.0348998461"/>
+	<property name="offset_arm_yaw" value="0.005831284"/>
 	
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
@@ -95,26 +94,26 @@
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam_l_x" value="0.0"/>
-	<property name="offset_cam_l_y" value="0.0"/>
-	<property name="offset_cam_l_z" value="0.0"/>
-	<property name="offset_cam_l_roll" value="0.0"/>
-	<property name="offset_cam_l_pitch" value="0.0"/>
-	<property name="offset_cam_l_yaw" value="0.0"/>
+	<property name="offset_cam_l_x" value="0.0128470896"/>
+	<property name="offset_cam_l_y" value="-0.0163674915"/>
+	<property name="offset_cam_l_z" value="-0.019172954"/>
+	<property name="offset_cam_l_roll" value="0.5207736366"/>
+	<property name="offset_cam_l_pitch" value="0.0046598871"/>
+	<property name="offset_cam_l_yaw" value="-0.6322412801"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="offset_cam_r_x" value="0.0"/>
-	<property name="offset_cam_r_y" value="0.0"/>
-	<property name="offset_cam_r_z" value="0.0"/>
-	<property name="offset_cam_r_roll" value="0.0"/>
-	<property name="offset_cam_r_pitch" value="0.0"/>
-	<property name="offset_cam_r_yaw" value="0.0"/>
+	<property name="offset_cam_r_x" value="0.000124496028632"/>
+	<property name="offset_cam_r_y" value="0.000145139610583"/>
+	<property name="offset_cam_r_z" value="0.00232296304842"/>
+	<property name="offset_cam_r_roll" value="0.00477327246037"/>
+	<property name="offset_cam_r_pitch" value="0.0123182199702"/>
+	<property name="offset_cam_r_yaw" value="0.010933690472"/>
 
 	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam3d_x" value="0.0"/>
-	<property name="offset_cam3d_y" value="0.0"/>
-	<property name="offset_cam3d_z" value="0.0"/>
-	<property name="offset_cam3d_roll" value="0.0"/>
-	<property name="offset_cam3d_pitch" value="0.0"/>
-	<property name="offset_cam3d_yaw" value="0.0"/>
+	<property name="offset_cam3d_x" value="0.142347909716"/>
+	<property name="offset_cam3d_y" value="0.0192894733872"/>
+	<property name="offset_cam3d_z" value="-0.0083425454547"/>
+	<property name="offset_cam3d_roll" value="0.0248135168721"/>
+	<property name="offset_cam3d_pitch" value="-0.00116005467991"/>
+	<property name="offset_cam3d_yaw" value="0.0138371510573"/>
 </robot>
